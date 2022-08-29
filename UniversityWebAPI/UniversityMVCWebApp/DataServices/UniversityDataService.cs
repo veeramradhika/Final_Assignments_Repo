@@ -16,8 +16,8 @@ namespace UniversityMVCWebApp.DataServices
                 new UniversityModelApi()
                 {
                     Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
+                    UniversityName="Jtua",
+                    Location="Andhra",
                     AffiliatedUnder="Andhra",
                     EstablishedYear=2007
 
@@ -25,35 +25,43 @@ namespace UniversityMVCWebApp.DataServices
                  new UniversityModelApi()
                 {
                     Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
-                    AffiliatedUnder="Andhra",
+                    UniversityName="OU",
+                    Location="Hyderabad",
+                    AffiliatedUnder="Telangana",
                     EstablishedYear=2007
                 },
                   new UniversityModelApi()
                 {
-                    Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
-                    AffiliatedUnder="Andhra",
-                    EstablishedYear=2007
+                    Id=2,
+                    UniversityName="Jntuh",
+                    Location="Hyderabad",
+                    AffiliatedUnder="Telangana",
+                    EstablishedYear=1980
                 },
-                   new UniversityModelApi() 
+                   new UniversityModelApi()
                 {
-                   Id=1,
-                    UniversityName="Manisha",
+                   Id=3,
+                    UniversityName="Jntuk",
                     Location="vizag",
                     AffiliatedUnder="Andhra",
-                    EstablishedYear=2007
+                    EstablishedYear=1889
                 },
                     new UniversityModelApi()
                 {
-                  Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
-                    AffiliatedUnder="Andhra",
-                    EstablishedYear=2007
+                  Id=4,
+                    UniversityName="Delhi university",
+                    Location="Delhi",
+                    AffiliatedUnder="UGC",
+                    EstablishedYear=1980
                 },
+                new UniversityModelApi()
+                {
+                    Id=5,
+                    UniversityName="OU",
+                    Location="Hyderabad",
+                    AffiliatedUnder="Telangana",
+                    EstablishedYear=2007
+                }
             };
         }
     }
