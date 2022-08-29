@@ -54,6 +54,14 @@ namespace UniversityTestProject.TestData
                     AffiliatedUnder="UGC",
                     EstablishedYear=1980
                 },
+                new UniversityModelApi()
+                {
+                    Id=5,
+                    UniversityName="OU",
+                    Location="Hyderabad",
+                    AffiliatedUnder="Telangana",
+                    EstablishedYear=2007
+                }
             };
         }
     }
