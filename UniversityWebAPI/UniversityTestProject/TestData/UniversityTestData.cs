@@ -16,8 +16,8 @@ namespace UniversityTestProject.TestData
                 new UniversityModelApi()
                 {
                     Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
+                    UniversityName="Jtua",
+                    Location="Andhra",
                     AffiliatedUnder="Andhra",
                     EstablishedYear=2007
 
@@ -25,34 +25,34 @@ namespace UniversityTestProject.TestData
                  new UniversityModelApi()
                 {
                     Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
-                    AffiliatedUnder="Andhra",
+                    UniversityName="OU",
+                    Location="Hyderabad",
+                    AffiliatedUnder="Telangana",
                     EstablishedYear=2007
                 },
                   new UniversityModelApi()
                 {
                     Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
-                    AffiliatedUnder="Andhra",
-                    EstablishedYear=2007
+                    UniversityName="Jntuh",
+                    Location="Hyderabad",
+                    AffiliatedUnder="Telangana",
+                    EstablishedYear=1980
                 },
                    new UniversityModelApi()
                 {
                    Id=1,
-                    UniversityName="Manisha",
+                    UniversityName="Jntuk",
                     Location="vizag",
                     AffiliatedUnder="Andhra",
-                    EstablishedYear=2007
+                    EstablishedYear=1889
                 },
                     new UniversityModelApi()
                 {
                   Id=1,
-                    UniversityName="Manisha",
-                    Location="vizag",
-                    AffiliatedUnder="Andhra",
-                    EstablishedYear=2007
+                    UniversityName="Delhi university",
+                    Location="Delhi",
+                    AffiliatedUnder="UGC",
+                    EstablishedYear=1980
                 },
             };
         }
