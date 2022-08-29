@@ -11,23 +11,26 @@ namespace UniversityMVCWebApp.Controllers
     
     public class UniversitiesController : Controller
     {
-        Uri baseUri = new Uri("https://localhost:7168/api");
-        HttpClient client = new HttpClient();
+         Uri baseUri = new Uri("https://localhost:7168/api");
+            HttpClient client = new HttpClient();
 
         List<UniversityViewModel> UniversityList = new List<UniversityViewModel>();
-        private readonly IDataRepository<UniversityModelApi> _universityDataRepository;
+        //private readonly IDataRepository<UniversityModelApi> _universityDataRepository;
         private readonly IMapper _imapper;
 
 
-        public UniversitiesController(IDataRepository<UniversityModelApi> universityDataRepository, IMapper imapper)
+        //public UniversitiesController(IDataRepository<UniversityModelApi> universityDataRepository, IMapper imapper)
+        //{
+        //    _universityDataRepository = universityDataRepository;
+        //    _imapper = imapper;
+        //}
+        public UniversitiesController(IMapper imapper)
         {
-            _universityDataRepository = universityDataRepository;
             _imapper = imapper;
         }
-       
 
-       
-             
+
+
 
         //Details of  the universities
         public IActionResult Index()
