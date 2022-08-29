@@ -1,0 +1,11 @@
+g
+^D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Entities\University.csutf-8u
+lD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828172653_initial.csutf-8Ä
+uD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828172653_initial.Designer.csutf-8t
+kD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828174613_second.csutf-8
+tD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828174613_second.Designer.csutf-8Å
+vD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\UniversityDBContextModelSnapshot.csutf-8g
+^D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\UniversityDBContext.csutf-8ì
+áD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.GlobalUsings.g.csutf-8ì
+áD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8ë
+ÖD:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.AssemblyInfo.csutf-8

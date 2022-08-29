@@ -1,0 +1,508 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22128.4 (5d10d428)",
+        "semanticVersion": "4.1.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mapper' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 16,
+                  "endLine": 23,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Object' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 16,
+                  "endLine": 23,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_universityDBContext' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 16,
+                  "endLine": 28,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_mapper' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 16,
+                  "endLine": 28,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'UniversityName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/APIModels/UniversityModelApi.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Location' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/APIModels/UniversityModelApi.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'AffiliatedUnder' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/APIModels/UniversityModelApi.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 23,
+                  "endLine": 19,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'value' in 'ActionResult<University>.implicit operator ActionResult<University>(University value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 20,
+                  "endLine": 62,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0472",
+          "level": "warning",
+          "message": "The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 17,
+                  "endLine": 57,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'UniversityController._mapper' is never assigned to, and will always have its default value null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 34,
+                  "endLine": 17,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 9,
+                  "endLine": 21,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 9,
+                  "endLine": 34,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3459",
+          "level": "warning",
+          "message": "Remove unassigned field '_mapper', or set its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 34,
+                  "endLine": 17,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'IDataRespository' to match pascal case naming rules, consider using 'DataRespository'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Repository/IDataRespository.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3246",
+          "level": "warning",
+          "message": "Add the 'out' keyword to parameter 'TEntity' to make it 'covariant'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Repository/IDataRespository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 42,
+                  "endLine": 7,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2583",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 17,
+                  "endLine": 57,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Final_Assignments_Repo/UniversityWebAPI/UniversityWebAPI/Controllers/UniversityController.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 13,
+                  "endLine": 60,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0472": {
+          "id": "CS0472",
+          "shortDescription": "The result of the expression is always the same since a value of this type is never equal to 'null'",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0472)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0649": {
+          "id": "CS0649",
+          "shortDescription": "Field is never assigned to, and will always have its default value",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0649)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Possible null reference argument.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2583": {
+          "id": "S2583",
+          "shortDescription": "Conditionally executed code should be reachable",
+          "fullDescription": "Conditional expressions which are always true or false can lead to dead code. Such code is always buggy and should never be used in production.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2583",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3246": {
+          "id": "S3246",
+          "shortDescription": "Generic type parameters should be co/contravariant when possible",
+          "fullDescription": "In the interests of making code as usable as possible, interfaces and delegates with generic parameters should use the out and in modifiers when possible to make the interfaces and delegates covariant and contravariant, respectively.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3246",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3459": {
+          "id": "S3459",
+          "shortDescription": "Unassigned members should be removed",
+          "fullDescription": "Fields and auto-properties that are never assigned to hold the default values for their types. They are either pointless code or, more likely, mistakes.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3459",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+﻿
+
+@model IEnumerable<UniversityMVCWebApp.Models.UniversityViewModel>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.universityName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.affiliatedUnder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.establishedYear)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.universityName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.affiliatedUnder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.establishedYear)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-warning btn-sm">Edit</a> |
+                 
+               @* <!DOCTYPE>   
+                <html>
+                   <head>
+                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                       <script>
+                            $(document).ready(function(){
+                            $("#p1").click(function(){
+                            alert("Are you sure you want to Delete!");
+                         });
+                       });
+                     </script>
+                   </head>
+                   <body>
+                     <a id="p1" asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger btn-sm">Delete</a>
+                   </body>
+               </html>*@
+            </td>
+        </tr>
+        <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                
+                <div class="modal-header">
+                    <a href="#" class="close" data-dismiss="modal">&times;</a>
+                    <h3 class="modal-title">Delete University</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Are you sure ? You want to delete this. </h4>
+
+                    <div style="text-align:center;display:none" id="loaderDiv">
+
+                        <img src="~/Content/img/2xkV.gif"  style="height:200px;width:200px"/>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                    <a href="#" class="btn btn-success" onclick="Delete()">Confirm</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <input type="hidden" id="hiddenEmployeeId" />
+
+
+}
+    </tbody>
+</table>
+
+<script>
+
+    var ConfirmDelete = function (EmployeeId)
+    {
+
+        $("#hiddenUniversityId").val(EmployeeId);
+        $("#myModal").modal('show');
+
+    }
+
+    var DeleteEmployee = function ()
+    {
+
+        $("#loaderDiv").show();
+
+        var universityid = $("#hiddenUniversityId").val();
+
+        $.ajax({
+
+            type: "Delete",
+            url: "/Universities/Delete",
+            data: { id: universityid },
+            success: function (result) {
+                $("#loaderDiv").hide();
+                $("#myModal").modal("hide");
+                $("#row_" + universityid).remove();
+
+            }
+
+        })
+
+    }
+</script>

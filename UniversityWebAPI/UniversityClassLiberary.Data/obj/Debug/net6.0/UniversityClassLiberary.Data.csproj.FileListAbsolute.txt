@@ -1,0 +1,14 @@
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\bin\Debug\net6.0\UniversityClassLiberary.Data.deps.json
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\bin\Debug\net6.0\UniversityClassLiberary.Data.runtimeconfig.json
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\bin\Debug\net6.0\UniversityClassLiberary.Data.dll
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\bin\Debug\net6.0\UniversityClassLiberary.Data.pdb
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.csproj.AssemblyReference.cache
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.AssemblyInfoInputs.cache
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.AssemblyInfo.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.csproj.CoreCompileInputs.cache
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.dll
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\refint\UniversityClassLiberary.Data.dll
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.pdb
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\UniversityClassLiberary.Data.genruntimeconfig.cache
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\obj\Debug\net6.0\ref\UniversityClassLiberary.Data.dll

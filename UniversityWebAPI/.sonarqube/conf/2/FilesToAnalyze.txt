@@ -1,0 +1,12 @@
+﻿D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\APIModels\UniversityModelApi.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\AutoMapping\AutoMapperMapping.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Controllers\UniversityController.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Program.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Repository\IDataRespository.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\UniversityWebAPI.GlobalUsings.g.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\UniversityWebAPI.AssemblyInfo.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\UniversityWebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\appsettings.Development.json
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\appsettings.json
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Properties\launchSettings.json

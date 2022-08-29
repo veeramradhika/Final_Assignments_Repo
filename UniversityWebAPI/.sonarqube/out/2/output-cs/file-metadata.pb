@@ -1,0 +1,10 @@
+d
+[D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\APIModels\UniversityModelApi.csutf-8e
+\D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\AutoMapping\AutoMapperMapping.csutf-8h
+_D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Controllers\UniversityController.csutf-8O
+FD:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Program.csutf-8c
+ZD:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\Repository\IDataRespository.csutf-8z
+oD:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\UniversityWebAPI.GlobalUsings.g.csutf-8†
+{D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8x
+mD:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\UniversityWebAPI.AssemblyInfo.csutf-8Œ
+€D:\Final_Assignments_Repo\UniversityWebAPI\UniversityWebAPI\obj\Debug\net6.0\UniversityWebAPI.MvcApplicationPartsAssemblyInfo.csutf-8

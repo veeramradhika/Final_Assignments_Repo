@@ -1,0 +1,7 @@
+﻿D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Entities\University.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828172653_initial.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828172653_initial.Designer.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828174613_second.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\20220828174613_second.Designer.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\Migrations\UniversityDBContextModelSnapshot.cs
+D:\Final_Assignments_Repo\UniversityWebAPI\UniversityClassLiberary.Data\UniversityDBContext.cs
