@@ -19,10 +19,10 @@ namespace UniversityMVCWebApp.Controllers
         private readonly IMapper _imapper;
 
 
-        //public UniversitiesController(IDataRepository<UniversityModelApi> universityDataRepository, IMapper imapper)
+        //public UniversitiesController(IDataRepository<UniversityModelApi> universityDataRepository)
         //{
         //    _universityDataRepository = universityDataRepository;
-        //    _imapper = imapper;
+        //    
         //}
         public UniversitiesController(IMapper imapper)
         {
