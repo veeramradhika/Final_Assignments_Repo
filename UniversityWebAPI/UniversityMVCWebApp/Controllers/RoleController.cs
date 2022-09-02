@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace UniversityMVCWebApp.Controllers
 {
-    [Authorize(policy: "writepolicy")]
+    [Authorize(policy: "readonlypolicy")]
     public class RoleController : Controller
     {
         private RoleManager<IdentityRole> _roleManager;
