@@ -16,9 +16,9 @@ builder.Services.AddScoped<UniversityMVCWebAppContext>();
 
 builder.Services.AddAuthorization(options => {
     options.AddPolicy("readonlypolicy",
-        builder => builder.RequireRole("Operator"));
-    options.AddPolicy("writepolicy",
         builder => builder.RequireRole("Admin"));
+    options.AddPolicy("writepolicy",
+        builder => builder.RequireRole("Operator"));
 });
 
 // Add services to the container.
