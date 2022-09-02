@@ -7,7 +7,7 @@ using UniversityMVCWebApp.Models;
 
 namespace UniversityMVCWebApp.Controllers
 {
-    [Authorize(policy: "writepolicy")]
+    [Authorize(policy: "readonlypolicy")]
     public class AdminController : Controller
     {
         private readonly UniversityMVCWebAppContext _universityMVCWebAppContext;
